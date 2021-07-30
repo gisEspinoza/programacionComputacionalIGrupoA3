@@ -13,21 +13,25 @@ namespace claseTeorica3007
             //if anidados
             int a = 10, b = 20;
 
-            if (a != b) //evalua si a es diferente de b
-            {
-                if (a < b)
-                {
-                    Console.WriteLine("a es menor a b");
-                }
-                else if(a>b)
-                {
-                    Console.WriteLine("a es mayor a b");
-                }
-            }
-            else
-                Console.WriteLine("a es igual a b");
-            
+            /* if (a != b) //evalua si a es diferente de b
+             {
+                 if (a < b)
+                 {
+                     Console.WriteLine("a es menor a b");
+                 }
+                 else if(a>b)
+                 {
+                     Console.WriteLine("a es mayor a b");
+                 }
+             }
+             else
+                 Console.WriteLine("a es igual a b");*/
 
+
+            //operador ternario
+            var result = a > b ? "a es mayor a b" : "a es menor a b";
+
+            Console.WriteLine(result);
             Console.ReadKey(); //espera que el usuario presione una tecla
         }
     }
