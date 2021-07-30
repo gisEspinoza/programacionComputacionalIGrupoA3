@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>claseTeorica3007.Ejemplo1</StartupObject>
+    <StartupObject>claseTeorica3007.Ejemplo3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ejemplo1.cs" />
+    <Compile Include="Ejemplo2.cs" />
+    <Compile Include="Ejemplo3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
