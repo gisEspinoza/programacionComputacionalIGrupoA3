@@ -11,7 +11,7 @@ namespace clasePractica1008
         static void Main(string[] args)
         {
             //loops
-            loops(); //llamado al metodo loops()
+            loops(); //llamado al metodo loops(), para imprimir los elementos en el array
             Console.ReadKey();
         }
 
