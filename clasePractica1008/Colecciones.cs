@@ -52,3 +52,12 @@ namespace clasePractica1008
         }
     }
 }
+
+/*ejercicios
+
+Escriba un array con el nombre de 4 integrantes de su familia, incluido su nombre. Debera imprimir los nombres utilizando el metodo Sort().
+
+
+Declare un diccionario con nombres de 4 integrantes de su familia, incluido su nombre, y la edad. Debera mostrar los datos ordenados.
+
+*/
